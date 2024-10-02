@@ -13,11 +13,11 @@ name: "CodeQL Advanced"
 
 on:
   push:
-    branches: testing
+    branches: security
   pull_request:
-    branches: testing
+    branches: security
   schedule:
-    - cron: '* * * * 6'
+    - cron: '* * * * *'
 
 jobs:
   analyze:
